@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>arquiWeb</artifactId>
 	<version>0.0.1</version>
 	<name>arquiWeb</name>
 	<description>Demo project for Spring Boot</description>
@@ -35,6 +35,7 @@
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
+			<version>8.4.0</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
