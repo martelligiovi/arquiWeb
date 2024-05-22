@@ -6,9 +6,11 @@ services:
     ports:
       - "8080:8080"
     environment:
-      DB_URL: jdbc:mysql://arquiWeb:3306/arquiweb?createDatabaseIfNotExist=true&serverTimezone=UTC
-      DB_USER_NAME: root
-      DB_PASSWORD: 1234
+      DB_HOST: viaduct.proxy.rlwy.net
+      DB_PORT: 43976
+      DB_NAME: railway
+      DB_USER: root
+      DB_PASSWORD: sTuXmCipdpScnDZsnpyUKKVYcnRtodXW
     restart: always
     depends_on:
       arquiWeb:
