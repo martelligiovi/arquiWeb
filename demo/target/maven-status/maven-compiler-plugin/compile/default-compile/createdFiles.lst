@@ -1,0 +1,12 @@
+com\example\demo\DemoApplication.class
+com\example\demo\Service\GatoService.class
+com\example\demo\Service\UserService.class
+com\example\demo\reposirtoryDAO\UserRepository.class
+com\example\demo\controller\UserControler.class
+com\example\demo\model\User.class
+com\example\demo\controller\GatoControler.class
+com\example\demo\DTO\UserDTO.class
+com\example\demo\Service\IService.class
+com\example\demo\reposirtoryDAO\GatoRepository.class
+com\example\demo\model\Gato.class
+com\example\demo\DTO\GatoDto.class
