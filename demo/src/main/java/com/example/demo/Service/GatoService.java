@@ -38,11 +38,17 @@ public class GatoService implements IService<Gato>{
 
     @Override
     public Gato update(Gato gato) {
-        Gato existingGato = gatoRepository.findById(gato.getIdGato()).orElse(null);
-        if(existingGato != null){
+        Gato existingGato = gatoRepository.findByIdGato(gato.getIdGato());
+        System.out.println(existingGato);
+        System.out.println(gato);
+        System .out.println(gato.getIdGato());
+        if(existingGato!=null){
             existingGato.setNombre(gato.getNombre());
+            System.out.println(existingGato);
             gatoRepository.save(existingGato);
         }
+        else {
+            System.out.println("---------------------------- se encontro el gato----------------------------");        }
         return existingGato;
     }
 }

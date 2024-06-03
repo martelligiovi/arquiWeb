@@ -26,4 +26,13 @@ public class Gato {
         this.nombre = gatoDto.getNombre();
         this.dueño = gatoDto.getDueño();
     }
+    @Override
+    public String toString() {
+        return "Gato{" +
+                "idGato=" + idGato +
+                ", nombre='" + nombre + '\'' +
+                ", dueñoId=" + (dueño != null ? dueño.getId() : "null") +
+                '}';
+    }
+
 }

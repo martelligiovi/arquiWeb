@@ -32,4 +32,15 @@ public class User {
     public User(Long idUser) {
         this.id = idUser;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", gatosSize=" + gatos.size() +
+                '}';
+    }
+
+
 }

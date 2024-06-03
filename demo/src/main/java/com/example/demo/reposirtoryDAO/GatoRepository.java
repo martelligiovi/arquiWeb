@@ -10,4 +10,5 @@ import java.util.List;
 @Repository
 public interface GatoRepository extends JpaRepository<Gato, Long> {
     List<Gato> findByDueño_Id(Long id);
+    Gato findByIdGato(Long id);
 }

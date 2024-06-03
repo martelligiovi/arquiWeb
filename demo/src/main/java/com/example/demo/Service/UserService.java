@@ -1,6 +1,7 @@
 package com.example.demo.Service;
 
 
+import com.example.demo.DTO.UserDTO;
 import com.example.demo.model.User;
 import com.example.demo.reposirtoryDAO.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,6 +47,11 @@ public class UserService implements IService<User> {
             userRepository.save(existingUser);
         }
         return existingUser;
+    }
+
+    public Boolean checkUser(String name, String password) {
+        User user = userRepository.findByNameAndPassword(name, password);System.out.println(user);
+        return user != null;
     }
 
 

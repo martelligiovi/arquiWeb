@@ -28,11 +28,15 @@ public class GatoControler {
     public ResponseEntity<Gato> createGato(@PathVariable Long idUser ,@RequestBody GatoDto gatoDto) {
         Gato gato= new Gato(gatoDto);
         gato.setDueño(new User(idUser));
-        return new ResponseEntity<>(gatoService.save(gato), HttpStatus.CREATED);
+        Gato gatoDto1 = gatoService.save(gato);
+        System.out.println(gatoDto1);
+        return new ResponseEntity<>(gatoDto1, HttpStatus.CREATED);
     }
 
-    @PutMapping("User/{idUser}/Gato/edit")
-    public ResponseEntity<Gato> updateGato(@RequestBody Gato gato) {
+    @PatchMapping("User/{idUser}/Gato/edit")
+    public ResponseEntity<?> updateGato(@RequestBody Gato gato) {
+        System.out.println(gato);
+        System.out.println("------------");
         return new ResponseEntity<>(gatoService.update(gato), HttpStatus.OK);
     }
 
@@ -45,6 +49,7 @@ public class GatoControler {
     @GetMapping("User/{idUser}/Gato")
     public ResponseEntity<List<Gato>> getGatos(@PathVariable Long idUser) {
         List<Gato> gatos = gatoService.getGatosByDueño(idUser);
+        //System.out.println(gatos);
         return new ResponseEntity<>(gatos, HttpStatus.OK);
     }
 }

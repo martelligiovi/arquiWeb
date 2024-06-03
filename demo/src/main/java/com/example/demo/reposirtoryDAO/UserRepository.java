@@ -8,4 +8,5 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+    User findByNameAndPassword(String name, String password);
 }
