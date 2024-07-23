@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Este proyecto es una aplicación web desarrollada con Spring Boot y Java. Proporciona una API REST para gestionar usuarios y gatos.
+Este proyecto es una aplicación web desarrollada con Spring Boot y Java, fue creada para una materia de la facultad la cual tenia la consigna de crear una web app con 2 cruds con sus test y con su capa de vista. Proporciona una API REST para gestionar usuarios y gatos.
 
 ## Tabla de Contenidos
 - [Requisitos previos](#Requisitos)
