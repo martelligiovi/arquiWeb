@@ -65,7 +65,7 @@ mvn spring-boot:run
 
 ## Documentación de la API
 
-La documentación de la API se encuentra en el directorio `/docs`.
+La documentación de la API se encuentra en el archivo `/API_DOCUMENTATION.md`.
 
 ## Contribución
 
