@@ -12,11 +12,7 @@ Este proyecto es una aplicación web desarrollada con Spring Boot y Java. Propor
 - [Uso](#uso)
 - [Características](#características)
 - [Documentación de la API](#documentación-de-la-api)
-- [Contribución](#contribución)
-- [Roadmap](#roadmap)
-- [Licencia](#licencia)
 - [Autores](#autores)
-- [Agradecimientos](#agradecimientos)
 
 ## Instalación
 
@@ -55,18 +51,9 @@ La documentación de la API se encuentra en el directorio `/docs`.
 
 Si desea contribuir al proyecto, por favor haga un fork del repositorio y proponga un pull request.
 
-## Roadmap
 
-Consulte los [issues](https://github.com/martelligiovi/arquiWeb-master/issues) para ver las tareas y mejoras planificadas.
-
-## Licencia
-
-Este proyecto está licenciado bajo la licencia MIT.
 
 ## Autores
 
 - martelligiovi
 
-## Agradecimientos
-
-Gracias a todos los que contribuyeron al proyecto.
