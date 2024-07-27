@@ -1,6 +1,6 @@
 # Demo Application
 
-![Licencia](https://img.shields.io/badge/licencia-MIT-blue.svg) ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg) ![Cobertura de Pruebas](https://img.shields.io/badge/tests-100%25-success.svg)
+ ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg) ![Cobertura de Pruebas](https://img.shields.io/badge/tests-100%25-success.svg)
 
 ## Descripción
 
@@ -56,6 +56,8 @@ Para iniciar la aplicación, ejecute el siguiente comando en la raíz del proyec
 ```bash
 mvn spring-boot:run
 ```
+
+La aplicación se ejecutará en http://localhost:8080.
 
 ## Características
 
