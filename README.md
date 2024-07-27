@@ -32,7 +32,7 @@ Este proyecto utiliza MySQL como base de datos. Asegúrate de tener una instanci
 
 Este proyecto utiliza las siguientes variables de entorno para la configuración de la base de datos:
 
-- `DB_HOST`: El host de la base de datos.
+- `DB_HOST`: La ip del host de la base de datos.
 - `DB_PORT`: El puerto de la base de datos.
 - `DB_NAME`: El nombre de la base de datos.
 - `DB_USER`: El nombre de usuario para la base de datos.
