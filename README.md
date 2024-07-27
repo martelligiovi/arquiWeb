@@ -6,6 +6,12 @@
 
 Este proyecto es una aplicación web desarrollada con Spring Boot y Java, fue creada para una materia de la facultad la cual tenia la consigna de crear una web app con 2 cruds con sus test y con su capa de vista. Proporciona una API REST para gestionar usuarios y gatos.
 
+## Video Demostrativo
+
+(click)
+[![Ver Video](https://img.youtube.com/vi/G0F99jqNSFg/maxresdefault.jpg)](https://www.youtube.com/watch?v=G0F99jqNSFg)
+
+
 ## Tabla de Contenidos
 - [Requisitos previos](#Requisitos)
 - [Instalación](#instalación)
