@@ -1,4 +1,4 @@
-# Demo Application
+# Cats
 
  ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg) ![Cobertura de Pruebas](https://img.shields.io/badge/tests-100%25-success.svg)
 
